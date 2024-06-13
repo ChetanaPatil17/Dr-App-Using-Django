@@ -226,7 +226,7 @@ def ap_fix(request, usr=None, i=None):
     send_mail(
             'Appointment Details',
             'Dr '+a.doc_name+', patient name '+a.name+' appointment at '+a.date+' on '+a.time+' login for more details',
-            '', #from mail address
+            'gauravdeore1703@gmail.com', #from mail address
             [b,c],
             fail_silently=False,
             )

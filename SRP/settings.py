@@ -68,10 +68,11 @@ TEMPLATES = [
 
 # Email settings
 EMAIL_USE_TLS = True
+EMAIL_USE_SSL = False
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = '587'
-EMAIL_HOST_USER = 'manish.test.smtp@gmail.com' # from mail address
-EMAIL_HOST_PASSWORD = 'smtp@123' # password
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'gauravdeore1703@gmail.com' # from mail address
+EMAIL_HOST_PASSWORD = 'vlyi iwil pdqi uxdn' # password
 
 WSGI_APPLICATION = 'SRP.wsgi.application'
 
